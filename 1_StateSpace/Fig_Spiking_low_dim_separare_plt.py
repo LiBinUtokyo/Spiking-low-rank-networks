@@ -1,3 +1,4 @@
+
 from Spiking_rank_one_INPUTS_C import *
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -194,3 +195,4 @@ plt.yticks([0,30,40])
 f10 = plt.figure()
 plt.plot(proj_I[t_cond], proj_m[t_cond])
 plt.axis('off')
+

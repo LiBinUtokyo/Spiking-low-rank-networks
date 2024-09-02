@@ -167,7 +167,7 @@ def SPIKES_C(J_value = 0.6*mV, factor_mn = 0.01, I_ampl = 1, ind_c = 1, c_array 
 
         for iter in range(0, nmb_trials):
 
-            seed1 = seed_array[iter]
+            seed1 = int(seed_array[iter])
             print('Iteracija :'+str(iter))
             np.random.seed(seed=seed1)
             random.seed(seed1)
