@@ -89,6 +89,7 @@ C_sparsity = int(0.1*N)
 # C=C_sparsity,
 # set generate_res to True when you run it the first time. After that, the dictionary with results will be stored.
 generate_res = False
+generate_res = True
 tau_short = 1*ms
 tau_long = 100*ms
 raster_trials_plot = [0, 0, 0]

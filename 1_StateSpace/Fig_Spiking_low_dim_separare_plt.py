@@ -1,4 +1,4 @@
-
+#%%
 from Spiking_rank_one_INPUTS_C import *
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches

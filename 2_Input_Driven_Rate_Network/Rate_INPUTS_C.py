@@ -5,7 +5,7 @@ plt.rcParams['font.size']=14
 plt.rcParams['figure.figsize']= 3,2
 plt.rcParams['legend.fontsize'] = 8
 plt.rcParams['lines.markersize'] = 4
-plt.rcParams['backend'] = 'Qt4Agg'
+# plt.rcParams['backend'] = 'Qt4Agg'
 # for problem with main thread
 gaussian_norm = (1/np.sqrt(np.pi))
 gauss_points, gauss_weights = np.polynomial.hermite.hermgauss(300)
